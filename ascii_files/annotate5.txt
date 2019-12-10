@@ -1,0 +1,33 @@
+[AFF]  39.52  105.35  Air Force A,CO
+[AKO]  40.17  103.22  Akron,CO
+[ALS]  37.45  105.87  Alamosa,CO
+[ASE]  39.22  106.87  Aspen,CO
+[BJC]  39.90  105.12  Brmfield/Jef,CO
+[BKF]  39.72  104.75  Buckley,CO
+[COS]  38.82  104.72  Colo Sprgs,CO
+[CEZ]  37.30  108.63  Cortez,CO
+[CAG]  40.50  107.53  Craig-Moffat,CO
+[DEN]  39.75  104.87  Denver,CO
+[DRO]  37.15  107.75  Durango,CO
+[EGE]  39.65  106.92  Eagle,CO
+[APA]  39.57  104.83  Englewood,CO
+[FCS]  38.68  104.77  Fort Carson,CO
+[FSR]  39.57  105.50  Fraser,CO
+[FNL]  40.45  105.02  Ft Col/Lovel,CO
+[FCL]  40.58  105.08  Ft Collins,CO
+[GJT]  39.12  108.53  Grand Jct,CO
+[GXY]  40.43  104.63  Greeley-Wld,CO
+[2V9]  38.55  106.93  Gunnison,CO
+[GUC]  38.55  106.92  Gunnison,CO
+[LHX]  38.05  103.52  La Junta,CO
+[4LJ]  38.12  102.60  Lamar,CO
+[LXV]  39.25  106.30  Leadville,CO
+[LIC]  39.18  103.70  Limon,CO
+[6V8]  38.50  107.88  Montrose,CO
+[MTJ]  38.50  107.88  Montrose,CO
+[PUB]  38.28  104.52  Pueblo,CO
+[1V1]  39.53  107.80  Rifle,CO
+[S29]  38.53  106.05  Salida,CO
+[SBS]  40.48  106.82  Steamboat Sp,CO
+[TAD]  37.25  104.33  Trinidad,CO
+[C96]  40.00  105.87  Winter Park,CO

@@ -1,0 +1,21 @@
+The 15 most populous nations
+Data taken from Wikipedia, October 2008
+----------------------------------------------------------------------
+Country		Population (millions)  Percentage (of world)
+China		1,321		       19.84%
+India		1,132		       16.96%
+United States	304		       4.56%
+Indonesia	232		       3.47%
+Brazil		187		       2.80%
+Pakistan	163		       2.44%
+Bangladesh	159		       2.38%
+Nigeria		148		       2.22%
+Russia		142		       2.13%
+Japan		128		       1.92%
+Mexico		107		       1.60%
+Philippines	89		       1.33%
+Vietnam		84		       1.31%
+Germany		82		       1.23%
+Egypt		81		       1.13%
+----------------------------------------------------------------------
+Total		4,356		       65.32%
