@@ -9,10 +9,9 @@ POOCH = pooch.create(
     version='v' + __version__,
     version_dev='master')
 
-dev_data_path = os.environ.get('GEOCAT_DATA_DIR',
-                               os.path.join(os.path.dirname(__file__),
-                                            '..'))
-if os.path.exists(dev_data_path):
+dev_data_path = os.environ.get('GEOCAT_DATA_DIR')
+
+if dev_data_path is not None and os.path.exists(dev_data_path):
     POOCH.path = dev_data_path
 
 POOCH.load_registry(os.path.join(os.path.dirname(__file__), 'registry.txt'))
