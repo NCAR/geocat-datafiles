@@ -10,7 +10,6 @@ shutil.copy("registry.txt", "src/registry.txt")
 setup(
     name="geocat.datafiles",
     package_dir={'geocat.datafiles': 'src'},
-    package_data={'geocat.datafiles': ['registry.txt']},
     include_package_data=True,
     namespace_packages=['geocat'],
     packages=["geocat.datafiles"],
