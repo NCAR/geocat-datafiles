@@ -1,0 +1,34 @@
+{% set version = "2021.1.0" %}
+
+package:
+  name: geocat-datafiles
+  version: {{ version }}
+
+source:
+  url: https://github.com/NCAR/geocat-datafiles/archive/v{{ version }}.tar.gz
+
+build:
+  noarch: python
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - python
+    - setuptools
+    - pooch
+  run:
+    - python
+    - pooch
+
+test:
+  imports:
+    - geocat.datafiles
+
+about:
+  home: https://geocat.ucar.edu/
+  summary: 'GeoCAT-datafiles is a Python module that allows users to download sample datasets for use with GeoCAT projects.'
+
+extra:
+  recipe-maintainers:
+    - erogluorhan
