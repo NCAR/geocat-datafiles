@@ -24,4 +24,4 @@ downloading from the GeoCAT-datafiles repository, if not in the local storage, w
 # Installation instructions
 
 Please see our documentation for 
-[installation instructions](https://github.com/NCAR/geocat-datafiles/INSTALLATION.md).
+[installation instructions](https://github.com/NCAR/geocat-datafiles/blob/main/INSTALLATION.md).
