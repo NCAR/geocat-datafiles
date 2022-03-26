@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/NCAR/{{ name }}/archive/v{{ version }}.tar.gz # For building from a specific tag's tarball
-  sha256: a94558a5b658d14c2fa96f8a6d1bcd250832ea1bfe77034c1c28f5cb3e0e5c2b
-  # git_tag: v{{ version }} # For building from a specific tag
+  # url: https://github.com/NCAR/{{ name }}/archive/v{{ version }}.tar.gz # For building from a specific tag's tarball
+  # sha256: a94558a5b658d14c2fa96f8a6d1bcd250832ea1bfe77034c1c28f5cb3e0e5c2b
+  git_tag: v{{ version }} # For building from a specific tag
   # git_rev: main # For building from branch for debugging purposes
-  # git_url: https://github.com/NCAR/{{ name }}.git
+  git_url: https://github.com/NCAR/{{ name }}.git
 
 build:
   noarch: python
