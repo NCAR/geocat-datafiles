@@ -1,5 +1,5 @@
 {% set name = "geocat-datafiles" %}
-{% set version = "2021.1.0" %}
+{% set version = "2022.03.0" %}
 
 package:
   name: {{ name }}
@@ -15,8 +15,8 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
-  skip: true  # [py<38 or win]
+  script: python -m pip install . --no-deps -vv
+  # skip: true  # [py<38 or win]
 
 requirements:
   build:
