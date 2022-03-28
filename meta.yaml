@@ -41,7 +41,7 @@ test:
 about:
   home: https://geocat.ucar.edu/
   summary: 'GeoCAT-datafiles is a Python module that allows users to download sample datasets for use with GeoCAT projects.'
-  dev_url: https://github.com/NCAR/geocat-datafiles
+  dev_url: https://github.com/NCAR/{{ name }}
   license: Apache-2.0
   license_file: LICENSE
 
