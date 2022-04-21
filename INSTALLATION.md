@@ -39,7 +39,7 @@ If you are interested in learning more about how Conda environments work, please
 the [managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) 
 page of the Conda documentation.
 
-## Installing GeoCAT-comp in a Pre-existing Conda Environment
+## Installing GeoCAT-datafiles in a Pre-existing Conda Environment
 
 If you started a project and later decided to use GeoCAT-datafiles, you will need to install it in your pre-existing
 environment.
@@ -56,9 +56,9 @@ environment.
 
    conda install -c ncar -c conda-forge geocat-datafiles
 
-## Updating GeoCAT-comp via Conda
+## Updating GeoCAT-datafiles via Conda
 
-It is important to keep your version of `geocat-comp` up to date. This can be done as follows:
+It is important to keep your version of `geocat-datafiles` up to date. This can be done as follows:
 
 1.  Make sure your Conda is up to date by running this command from the terminal:
 
