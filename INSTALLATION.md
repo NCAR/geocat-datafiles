@@ -73,7 +73,44 @@ It is important to keep your version of `geocat-datafiles` up to date. This can 
    conda update geocat-datafiles
 
 
-Installing GeoCAT-datafiles via PyPi
--------------------------------
+## Installing GeoCAT-datafiles via PyPi
+
 GeoCAT-datafiles is distributed also in PyPI; therefore, the above Conda installation instructions should, in theory,
 apply to PyPI installation through using `pip install` commands instead of `conda install` wherever they occur.
+
+## Installing GeoCAT-datafiles via PyPi
+GeoCAT-datafiles is distributed also in PyPI; therefore, the above Conda installation instructions should, in theory,
+apply to PyPI installation through using `pip install` commands instead of `conda install` wherever they occur.
+
+## Building GeoCAT-datafiles from source
+
+Building GeoCAT-datafiles from source code is a fairly straightforward task, but
+doing so should not be necessary for most users. If you `are` interested in
+building GeoCAT-datafiles from source, you will need the following packages to be
+installed.
+
+### Required dependencies for building and testing GeoCAT-datafiles
+- Python
+- [Pooch](https://pypi.org/project/pooch/)
+
+### How to create a Conda environment for building GeoCAT-datafiles
+
+The GeoCAT-datafiles source code includes a conda environment definition file in
+the `/build_envs` folder under the root directory that can be used to create a
+development environment containing all of the packages required to build GeoCAT-datafiles.
+The file `environment.yml` is intended to be used on Linux systems and macOS.
+The following commands should work on both Linux and macOS:
+
+    conda env create -f build_envs/environment.yml
+    conda activate geocat_datafiles_build
+
+
+### Installing GeoCAT-datafiles
+
+Once the dependencies listed above are installed, you can install GeoCAT-datafiles
+with running the following command from the root-directory:
+
+    pip install .
+
+For compatibility purposes, we strongly recommend using Conda to
+configure your build environment as described above.
