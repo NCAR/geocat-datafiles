@@ -39,7 +39,7 @@ setup(
     packages=["geocat.datafiles"],
     url='https://github.com/NCAR/geocat-datafiles',
     project_urls={
-        'Documentation': 'https://geocat-comp.readthedocs.io',
+        'Documentation': 'https://github.com/NCAR/geocat-datafiles/blob/main/README.md',
         'Source': 'https://github.com/NCAR/geocat-datafiles',
         'Tracker': 'https://github.com/NCAR/geocat-datafiles/issues',
     },
