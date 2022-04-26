@@ -5,5 +5,4 @@ dependencies:
   - python
   - pip
   - pooch
-  - pip:
-      - pre-commit
+  - pre-commit
