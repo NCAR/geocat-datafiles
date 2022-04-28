@@ -1,0 +1,7 @@
+name: geocat_datafiles_build
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pooch
+  - pre-commit
