@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - given-names: "Visualization & Analysis Systems Technologies"
+title: "Geoscience Community Analysis Toolkit: GeoCAT-datafiles"
+doi: 10.5281/zenodo.6684782
+url: "https://github.com/NCAR/geocat-datafiles"
