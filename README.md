@@ -1,3 +1,9 @@
+
+|  **License**    |   [![License][license-badge]][repo-link]    |
+| :---------------| :-------------------------------------------|
+|  **Package**    |   [![Conda][conda-forge-badge]][conda-forge-link]       |
+
+
 # GeoCAT-datafiles
 
 This repository contains the many data files that are used by 
@@ -30,3 +36,9 @@ Please see our documentation for
 
 If you use this software, please cite it as described at the [Citation](
 https://github.com/NCAR/geocat-datafiles/blob/main/CITATION.md) page.
+
+[comment]: <> (Links for badges and status)
+[license-badge]: https://img.shields.io/github/license/NCAR/geocat-datafiles?style=for-the-badge
+[repo-link]: https://github.com/NCAR/geocat-datafiles
+[conda-forge-badge]: https://img.shields.io/conda/vn/conda-forge/geocat-datafiles?logo=anaconda&style=for-the-badge
+[conda-forge-link]: https://anaconda.org/conda-forge/geocat-datafiles
