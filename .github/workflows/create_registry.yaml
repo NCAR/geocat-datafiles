@@ -22,11 +22,14 @@ jobs:
       shell: bash
       run: python .github/workflows/create_registry.py
 
-    - name: Commit and push changes
+    - name: Commit changes
       run: |
         git config --global user.name '${{ github.actor }}'
         git config --global user.email '<${{ github.actor }}@users.noreply.github.com>'
-        git remote set-url origin https://x-access-token:${{ secrets.SECRET_TOKEN }}
         git add registry.txt
         git commit --allow-empty -m "Update Registry.txt"
-        git push -u origin HEAD
+      
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
