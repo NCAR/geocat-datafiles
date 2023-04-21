@@ -19,7 +19,7 @@ jobs:
 
     - name: Re-Create Registry
       shell: bash
-      run: python .github/workflows/create_registry.py
+      run: python create_registry.py
 
     - name: Commit changes
       run: |
