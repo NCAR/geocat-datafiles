@@ -1,9 +1,8 @@
 name: Update Registry
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types: [opened, synchronize]
     
 jobs:
   update_registry:
@@ -30,6 +29,6 @@ jobs:
         git commit --allow-empty -m "Update Registry.txt"
       
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@main
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
