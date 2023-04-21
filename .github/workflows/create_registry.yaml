@@ -28,10 +28,6 @@ jobs:
         git add registry.txt
         git commit --allow-empty -m "Update Registry.txt"
       
-    - name: Fetch changes
-      run: git fetch origin ${{ github.head_ref }}
-    - name: Merge changes
-      run: git merge origin/${{ github.head_ref }}
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
