@@ -42,3 +42,6 @@ jobs:
       with:
         branch: ${{ github.head_ref }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git pull origin ${{ github.head_ref }}
+        git push origin ${{ github.head_ref }}
