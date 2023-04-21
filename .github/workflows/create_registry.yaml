@@ -17,15 +17,6 @@ jobs:
         python -m pip install pip --upgrade
         python -m pip install pooch
 
-    - name: Fetch changes
-      run: git fetch origin ${{ github.head_ref }}
-
-    - name: Merge changes from main
-      run: |
-        git remote add main-branch https://github.com/jukent/geocat-datafiles.git
-        git fetch main-branch
-        git merge --allow-unrelated-histories main-branch/main
-
     - name: Re-Create Registry
       shell: bash
       run: python .github/workflows/create_registry.py
@@ -42,6 +33,3 @@ jobs:
       with:
         branch: ${{ github.head_ref }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        git pull origin ${{ github.head_ref }}
-        git push origin ${{ github.head_ref }}
