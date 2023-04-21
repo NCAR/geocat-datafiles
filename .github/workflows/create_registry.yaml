@@ -26,7 +26,7 @@ jobs:
       run: |
         git config --global user.name '${{ github.actor }}'
         git config --global user.email '<${{ github.actor }}@users.noreply.github.com>'
-        git remote set-url origin https://x-access-token:${{ secrets.REGISTRY }}@github.com/NCAR/GEOCAT-DATAFILES
+        git remote set-url origin https://x-access-token:${{ secrets.SECRET_TOKEN }}
         git add registry.txt
         git commit --allow-empty -m "Update Registry.txt"
         git push -u origin HEAD
