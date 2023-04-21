@@ -29,7 +29,6 @@ jobs:
         git commit --allow-empty -m "Update Registry.txt"
       
     - name: Push changes
-      uses: ad-m/github-push-action@v1.0.0
+      uses: ad-m/github-push-action@master
       with:
-        branch: main
         github_token: ${{ secrets.GITHUB_TOKEN }}
