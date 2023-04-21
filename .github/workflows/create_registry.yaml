@@ -28,6 +28,15 @@ jobs:
         git add registry.txt
         git commit --allow-empty -m "Update Registry.txt"
       
+    - name: Fetch changes
+      run: git fetch origin ${{ github.head_ref }}
+
+    - name: Merge changes from main
+      run: |
+        git remote add main-branch https://github.com/jukent/geocat-datafiles.git
+        git fetch main-branch
+        git merge --allow-unrelated-histories main-branch/main
+
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
