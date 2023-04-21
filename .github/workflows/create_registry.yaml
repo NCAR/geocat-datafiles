@@ -8,7 +8,7 @@ jobs:
   update_registry:
     runs-on: 'ubuntu-20.04'
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
       with:
         ref: 'main'
   
@@ -29,6 +29,7 @@ jobs:
         git commit --allow-empty -m "Update Registry.txt"
       
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@v2.1.1
       with:
+        branch: ${{ github.event.pull_request.head.ref }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
