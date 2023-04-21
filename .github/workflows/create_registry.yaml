@@ -20,7 +20,7 @@ jobs:
           
     - name: Re-Create Registry
       shell: bash
-      run: python create_registry.yaml
+      run: python create_registry.py
 
     - name: Commit and push changes
       run: |
