@@ -11,7 +11,12 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: 'main'
-        token: ${{ secrets.GCD_REGISTRY }}
+      
+    - name: Copy secret to file
+      run: echo ${{ secrets.GCD_REGISTRY }} > my_pat.txt
+
+    - name: Load secret into env var
+      run: export MY_PAT=`cat my_pat.txt`
   
     - name: Install dependencies
       run: |
@@ -34,4 +39,4 @@ jobs:
       with:
         branch: ${{ github.head_ref }}
       env:
-        github_token: ${{ secrets.GCD_REGISTRY }}
+        github_token: $MY_PAT
