@@ -34,4 +34,4 @@ jobs:
       with:
         branch: ${{ github.head_ref }}
       env:
-        github_token: ${{ secrets.GCD_REGISTRY }
+        github_token: ${{ secrets.GCD_REGISTRY }}
