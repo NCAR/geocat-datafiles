@@ -32,4 +32,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         branch: ${{ github.head_ref }}
-        github_token: ${{ secrets.GEOCAT_DATAFILES }}
+        github_token: ${{ secrets.GCD_REGISTRY}}
