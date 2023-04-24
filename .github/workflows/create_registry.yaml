@@ -11,6 +11,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: 'main'
+        token: ${{ secrets.GCD_REGISTRY }
   
     - name: Install dependencies
       run: |
@@ -33,4 +34,4 @@ jobs:
       with:
         branch: ${{ github.head_ref }}
       env:
-        github_token: ${{ secrets.GCD_REGISTRY}}
+        github_token: ${{ secrets.GCD_REGISTRY }
