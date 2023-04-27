@@ -32,7 +32,14 @@ jobs:
           echo "::set-output name=commit_needed::true"
         fi
       shell: bash
-
+      
+    - name: Fetch upstream
+      if: steps.git-status.outputs.commit_needed == 'true'
+      run: |
+        git fetch origin
+        git checkout update-registry
+        git merge origin/update-registry
+          
     - name: Commit changes
       if: steps.git-status.outputs.commit_needed == 'true'
       run: |
