@@ -22,15 +22,28 @@ jobs:
       shell: bash
       run: python create_registry.py
 
+    - name: Check for changes
+      id: git-status
+      run: |
+        git status --porcelain > changes.txt
+        if [ ! -s changes.txt ]; then
+          echo "::set-output name=commit_needed::false"
+        else
+          echo "::set-output name=commit_needed::true"
+        fi
+      shell: bash
+
     - name: Commit changes
+      if: steps.git-status.outputs.commit_needed == 'true'
       run: |
         git config --global user.name '${{ github.actor }}'
         git config --global user.email '<${{ github.actor }}@users.noreply.github.com>'
         git add registry.txt
         git commit --allow-empty -m "Update Registry.txt"
-        git push origin main
+        git push origin update-registry
 
     - name: Create pull request
+      if: steps.git-status.outputs.commit_needed == 'true'
       uses: peter-evans/create-pull-request@v3
       with:
         branch: update-registry
