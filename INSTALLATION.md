@@ -25,8 +25,10 @@ used to create a new conda environment that includes some of these additional co
 Alternatively, if you already created a conda environment using the first command (without the extra packages),
 you can activate and install the packages in an existing environment with the following commands:
 
+```
     conda activate geocat # or whatever your environment is called
     conda install -c conda-forge matplotlib cartopy jupyter
+```
 
 Please note that the use of the **conda-forge** channel is essential to guarantee
 compatibility between dependency packages.
@@ -46,15 +48,15 @@ environment.
 
 1.  Make sure your conda is up to date by running this command from the terminal:
 
-    conda update conda
+    `conda update conda`
 
 2.  Activate the conda environment you want to add GeoCAT to. In this example, the environment is called `foo`:
 
-    conda activate foo
+    `conda activate foo`
 
 3. Install geocat-datafiles:
 
-   conda install -c ncar -c conda-forge geocat-datafiles
+   `conda install -c ncar -c conda-forge geocat-datafiles`
 
 ## Updating GeoCAT-datafiles via Conda
 
@@ -62,15 +64,15 @@ It is important to keep your version of `geocat-datafiles` up to date. This can 
 
 1.  Make sure your Conda is up to date by running this command from the terminal:
 
-    conda update conda
+    `conda update conda`
 
 2.  Activate the conda environment you want to update. In this example, the environment is called `geocat`:
 
-    conda activate geocat
+    `conda activate geocat`
 
 3. Update `geocat-datafiles`:
 
-   conda update geocat-datafiles
+   `conda update geocat-datafiles`
 
 
 ## Installing GeoCAT-datafiles via PyPi
@@ -101,9 +103,10 @@ development environment containing all of the packages required to build GeoCAT-
 The file `environment.yml` is intended to be used on Linux systems and macOS.
 The following commands should work on both Linux and macOS:
 
+```
     conda env create -f build_envs/environment.yml
     conda activate geocat_datafiles_build
-
+```
 
 ### Installing GeoCAT-datafiles
 
