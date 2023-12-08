@@ -1,7 +1,7 @@
 Please refer to the [GeoCAT website](https://geocat.ucar.edu/) for an overview of the GeoCAT project
 and relevant resources.
 
-Below are some guidelines for adding new files to geocat-datafiles.
+Below are guidelines for adding new files to geocat-datafiles:
 
 # Policies for adding new files
 
