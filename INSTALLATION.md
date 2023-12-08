@@ -1,6 +1,6 @@
 # Installation
 
-This installation guide includes instructions only for GeoCAT-datafiles. 
+This installation guide includes instructions only for geocat-datafiles. 
 Please refer to the [GeoCAT website](https://geocat.ucar.edu/pages/software.html) for links to resources for other GeoCAT projects.
   
 
