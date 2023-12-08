@@ -16,7 +16,7 @@ activated using:
     conda activate geocat
 
 If you would like to make use of other software packages, such as Matplotlib, Cartopy, Jupyter, etc. with
-GeoCAT-datafiles, you may wish to install these into your `geocat` environment as well. The following
+GeoCAT-datafiles, you may wish to install these under your `geocat` environment as well. The following
 command can be used to create a new conda environment that includes some of these additional Python packages:
 
     conda create -n geocat -c conda-forge geocat-datafiles matplotlib cartopy jupyter
