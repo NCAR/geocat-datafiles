@@ -1,8 +1,7 @@
-Please first refer to [GeoCAT Contributor's Guide](https://geocat.ucar.edu/pages/contributing.html) for overall 
-contribution guidelines (such as detailed description of GeoCAT structure, forking, repository cloning, 
-branching, etc.). Once you determine that a data file should be added to this repository, 
-please refer to the following contribution guidelines:
+Please refer to the [GeoCAT website](https://geocat.ucar.edu/) for an overview of the broader GeoCAT project
+and relevant resources.
 
+Below are some guidelines for adding new files to geocat-datafiles.
 
 # Policies for adding new files
 
@@ -18,7 +17,7 @@ data sets - on the order of a few MBs - should be chosen for testing or examples
 redistribution of any contributed data sets.
 
 
-# Adding new data files to the Geocat-datafiles repo
+# Adding new data files to the geocat-datafiles repo
 
 1. Add files to appropriate subdirectory based on file format, e.g. “`netcdf_files`”, etc
 
