@@ -17,7 +17,7 @@ data sets - on the order of a few MBs - should be chosen for testing or examples
 redistribution of any contributed data sets.
 
 
-# Adding new data files to the geocat-datafiles repo
+# Adding new data files to the ``geocat-datafiles`` repo
 
 1. Add files to appropriate subdirectory based on file format, e.g. “`netcdf_files`”, etc
 
