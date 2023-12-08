@@ -1,4 +1,4 @@
-Please refer to the [GeoCAT website](https://geocat.ucar.edu/) for an overview of the broader GeoCAT project
+Please refer to the [GeoCAT website](https://geocat.ucar.edu/) for an overview of the GeoCAT project
 and relevant resources.
 
 Below are some guidelines for adding new files to geocat-datafiles.
