@@ -8,7 +8,8 @@ from ._version import __version__
 POOCH = pooch.create(
     path=pooch.os_cache('geocat'),
     base_url='https://github.com/NCAR/GeoCAT-datafiles/raw/main/',
-    registry={'registry.txt': None})
+    registry={'registry.txt': None},
+    retry_if_failed=10)
 
 def _update_registry(p):
     """
