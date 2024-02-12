@@ -11,11 +11,11 @@ This repository contains data files used by
 to test or demonstrate GeoCAT functionality. The repo has several directories for data files
 in different formats (e.g. netCDF) and provides a convenience function to access those files with ease:
 
-    `geocat.datafiles.get(fname)`
+`geocat.datafiles.get(fname)`
     
-where `fname` should be given as a string of the format "`folder_name/filename`", e.g. "`netcdf_files/any_file.nc`".
+where `fname` should be given as a string of the format `"folder_name/file_name"`, e.g. `"netcdf_files/any_file.nc"`.
 
-The `geocat.datafiles.get(fname)` function fetches the file by reading from local storage, if any, or
+This function fetches the file by reading from local storage, if any, or
 downloading from the GeoCAT-datafiles repository with the help of
 [Pooch](https://www.fatiando.org/pooch).
 
