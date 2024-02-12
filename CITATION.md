@@ -13,20 +13,20 @@ the following text:
 
 **Visualization & Analysis Systems Technologies. (2020).
 Geoscience Community Analysis Toolkit: GeoCAT-datafiles [Software].
-Boulder, CO: UCAR/NCAR - Computational and Informational System Lab. doi:10.5281/zenodo.6684782.**
+Boulder, CO: NSF NCAR Computational and Information Systems Lab. doi:10.5281/zenodo.6684782.**
 
 Instead, if you would like to cite a specific version of GeoCAT-datafiles, use the following text:
 
 **Visualization & Analysis Systems Technologies. (\<Year\>).
 Geoscience Community Analysis Toolkit: GeoCAT-datafiles (v\<version\>) [Software].
-Boulder, CO, USA: UCAR/NCAR - Computational and Informational System Lab. doi:\<DOI\>.**
+Boulder, CO, USA: NSF NCAR Computational and Information Systems Lab. doi:\<DOI\>.**
 
 In the above citation text, update the year, GeoCAT-datafiles version, and DOI as appropriate. For
 example:
 
 **Visualization & Analysis Systems Technologies. (2022).
 Geoscience Community Analysis Toolkit: GeoCAT-datafiles (v2022.03.0) [Software].
-Boulder, CO, USA: UCAR/NCAR - Computational and Informational System Lab. doi:10.5281/zenodo.6684830.**
+Boulder, CO, USA: NSF NCAR Computational and Information Systems Lab. doi:10.5281/zenodo.6684830.**
 
 Please find DOIs for all the GeoCAT-datafiles versions [here](
 https://zenodo.org/search?page=1&size=20&q=conceptrecid:%226684782%22&sort=-version&all_versions=True).
