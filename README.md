@@ -6,31 +6,25 @@
 
 # GeoCAT-datafiles
 
-This repository contains the many data files that are used by 
-[GeoCAT-examples](https://github.com/NCAR/geocat-examples) and possibly other GeoCAT components 
-to test or demonstrate GeoCAT functionality. The repo has several directories for different data files types 
-(such as NetCDF) as well as provide a convenience function to access those files with ease:
+This repository contains data files used by 
+[GeoCAT-examples](https://github.com/NCAR/geocat-examples) and other GeoCAT components
+to test or demonstrate GeoCAT functionality. The repo has several directories for data files
+in different formats (e.g. netCDF) and provides a convenience function to access those files with ease:
 
-    `geocat.datafiles.get(fname)`
+`geocat.datafiles.get(fname)`
     
-where `fname` should be given as a string of the format "`folder_name/filename`", e.g. "`netcdf_files/any_file.nc`".
+where `fname` should be given as a string of the format `"folder_name/file_name"`, e.g. `"netcdf_files/any_file.nc"`.
 
-`geocat.datafiles.get(fname)` function fetches the file by simply reading from the local storage, if any, or 
-downloading from the GeoCAT-datafiles repository, if not in the local storage, with the help of 
-[PyPi's Pooch framework](https://pypi.org/project/pooch/)  
+This function fetches the file by reading from local storage, if any, or
+downloading from the GeoCAT-datafiles repository with the help of
+[Pooch](https://www.fatiando.org/pooch).
 
 
 # Documentation
 
-[GeoCAT Homepage](https://geocat.ucar.edu/)
+[Installation Instructions](INSTALLATION.md)
 
-[GeoCAT Contributor's Guide](https://geocat.ucar.edu/pages/contributing.html)
-
-
-# Installation instructions
-
-Please see our documentation for 
-[installation instructions](https://github.com/NCAR/geocat-datafiles/blob/main/INSTALLATION.md).
+[Contributing Guidelines](CONTRIBUTING.md)
 
 # Citing GeoCAT-datafiles
 
