@@ -10,6 +10,4 @@ ncl_outputs/spec_2_output_notaper.nc
 
 ## Dew Point Temperature
 
-ncl_outputs/dewtemp_trh.ncl
-
 ncl_outputs/dewtemp_trh_output.txt
