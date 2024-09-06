@@ -11,3 +11,7 @@ ncl_outputs/spec_2_output_notaper.nc
 ## Dew Point Temperature
 
 ncl_outputs/dewtemp_trh_output.txt
+
+## Daylight Hours
+
+ncl_outputs/daylight_fao56_output.txt
