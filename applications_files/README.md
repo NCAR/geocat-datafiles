@@ -24,3 +24,7 @@ ncl_outputs/daylight_fao56_output.txt
 ### Heat Index
 
 ncl_outputs/heat_index_nws_output.txt
+
+### Standard Atmosphere: Temperature, Density, and Pressure
+
+ncl_outputs/stdatmus_z2tdp_output.txt
