@@ -24,3 +24,7 @@ ncl_outputs/daylight_fao56_output.txt
 ### Heat Index
 
 ncl_outputs/heat_index_nws_output.txt
+
+### Saturation Vapor Pressure
+
+ncl_outputs/satvpr_temp_fao56_output.txt
