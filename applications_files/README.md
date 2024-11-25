@@ -25,6 +25,10 @@ ncl_outputs/daylight_fao56_output.txt
 
 ncl_outputs/heat_index_nws_output.txt
 
+### Spherical and Cartesian Coordinates
+
+ncl_outputs/css2c_output.txt
+
 ### Saturation Vapor Pressure
 
 ncl_outputs/satvpr_temp_fao56_output.txt
