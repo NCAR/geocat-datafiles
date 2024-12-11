@@ -32,3 +32,5 @@ ncl_outputs/css2c_output.txt
 ### Saturation Vapor Pressure
 
 ncl_outputs/satvpr_temp_fao56_output.txt
+
+ncl_outputs/satvpr_tdew_fao56_output.txt
