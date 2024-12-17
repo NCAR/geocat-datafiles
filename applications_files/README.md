@@ -29,6 +29,8 @@ ncl_outputs/heat_index_nws_output.txt
 
 ncl_outputs/css2c_output.txt
 
+ncl_outputs/csc2s_output.txt
+
 ### Saturation Vapor Pressure
 
 ncl_outputs/satvpr_temp_fao56_output.txt
