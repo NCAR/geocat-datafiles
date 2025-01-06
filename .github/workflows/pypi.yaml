@@ -3,10 +3,13 @@ on:
   release:
     types:
       - published
+
 jobs:
   test-build:
     if: github.repository == 'NCAR/geocat-datafiles'
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
@@ -24,6 +27,7 @@ jobs:
       - name: Test the artifacts
         run: |
           python -m twine check dist/*
+
   publish:
     needs: test-build
     if: startsWith(github.ref, 'refs/tags')
@@ -48,7 +52,5 @@ jobs:
       - name: Publish package to PyPI
         uses: pypa/gh-action-pypi-publish@v1.12.3
         with:
-          user: __token__
-          password: ${{ secrets.PYPI_GEOCAT_DATAFILES }}
           skip_existing: true
           verbose: true
