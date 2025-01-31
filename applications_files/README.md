@@ -39,6 +39,10 @@ ncl_outputs/satvpr_tdew_fao56_output.txt
 
 ncl_outputs/satvpr_slope_fao56_output.txt
 
+### Coriolis Parameter
+
+ncl_outputs/coriolis_param_output.txt
+
 ### Relative Humidity
 
 ncl_outputs/relhum_output.txt
