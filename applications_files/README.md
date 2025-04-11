@@ -48,3 +48,5 @@ ncl_outputs/coriolis_param_output.txt
 ncl_outputs/relhum_output.txt
 
 ncl_outputs/relhum_ice_output.txt
+
+ncl_outputs/relhum_water_output.txt
