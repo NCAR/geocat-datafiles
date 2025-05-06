@@ -55,3 +55,6 @@ ncl_outputs/relhum_water_output.txt
 
 ncl_outputs/dpres_plevel_output.txt
 
+### Psychrometric Constant
+
+ncl_outputs/psychro_fao56_output.txt
