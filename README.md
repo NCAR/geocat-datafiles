@@ -1,7 +1,8 @@
 
-|  **License**    |   [![License][license-badge]][repo-link]    |
-| :---------------| :-------------------------------------------|
+|  **License**    |   [![License][license-badge]][repo-link]                |
+| :---------------| :-------------------------------------------------------|
 |  **Package**    |   [![Conda][conda-forge-badge]][conda-forge-link]       |
+|  **Repository** |   [![Repo-Size][repo-size-badge]][repo-size-link]       |
 
 
 # GeoCAT-datafiles
@@ -22,17 +23,18 @@ downloading from the GeoCAT-datafiles repository with the help of
 
 # Documentation
 
-[Installation Instructions](INSTALLATION.md)
+[Installation guide](INSTALLATION.md)
 
-[Contributing Guidelines](CONTRIBUTING.md)
+[Contributing guide](CONTRIBUTING.md)
 
 # Citing GeoCAT-datafiles
 
-If you use this software, please cite it as described at the [Citation](
-https://github.com/NCAR/geocat-datafiles/blob/main/CITATION.md) page.
+If you use this software, please cite it as described on the [citation](https://github.com/NCAR/geocat-datafiles/blob/main/CITATION.md) page.
 
 [comment]: <> (Links for badges and status)
 [license-badge]: https://img.shields.io/github/license/NCAR/geocat-datafiles?style=for-the-badge
 [repo-link]: https://github.com/NCAR/geocat-datafiles
 [conda-forge-badge]: https://img.shields.io/conda/vn/conda-forge/geocat-datafiles?logo=anaconda&style=for-the-badge
 [conda-forge-link]: https://anaconda.org/conda-forge/geocat-datafiles
+[repo-size-badge]: https://img.shields.io/github/repo-size/NCAR/geocat-datafiles?style=for-the-badge
+[repo-size-link]: https://github.com/NCAR/geocat-datafiles
