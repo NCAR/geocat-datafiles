@@ -3,11 +3,11 @@ import os
 import pooch
 import requests
 
-from ._version import __version__
+from importlib.metadata import version as _version
 
 POOCH = pooch.create(
     path=pooch.os_cache('geocat'),
-    base_url='https://github.com/NCAR/GeoCAT-datafiles/raw/main/',
+    base_url='https://github.com/NCAR/geocat-datafiles/raw/main/',
     registry={'registry.txt': None},
     retry_if_failed=10)
 
