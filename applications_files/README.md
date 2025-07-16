@@ -20,3 +20,41 @@ ncl_outputs/dewtemp_trh_output.txt
 ### Daylight Hours
 
 ncl_outputs/daylight_fao56_output.txt
+
+### Heat Index
+
+ncl_outputs/heat_index_nws_output.txt
+
+### Spherical and Cartesian Coordinates
+
+ncl_outputs/css2c_output.txt
+
+ncl_outputs/csc2s_output.txt
+
+### Saturation Vapor Pressure
+
+ncl_outputs/satvpr_temp_fao56_output.txt
+
+ncl_outputs/satvpr_tdew_fao56_output.txt
+
+ncl_outputs/satvpr_slope_fao56_output.txt
+
+### Coriolis Parameter
+
+ncl_outputs/coriolis_param_output.txt
+
+### Relative Humidity
+
+ncl_outputs/relhum_output.txt
+
+ncl_outputs/relhum_ice_output.txt
+
+ncl_outputs/relhum_water_output.txt
+
+### Delta Pressure
+
+ncl_outputs/dpres_plevel_output.txt
+
+### Psychrometric Constant
+
+ncl_outputs/psychro_fao56_output.txt
